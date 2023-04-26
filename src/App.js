@@ -17,7 +17,7 @@ function App() {
       <Route path='/profile/:id' element={<Protected Component={Profile}/>}/>
       <Route path='/post/:id' element={<Protected Component={Post}/>}/>
       <Route path='/' element={<Login/>}/>
-      <Route path='*' element={<NotFound/>}/>
+      <Route  path='*' element={<NotFound/>}/>
     </Routes>
   );
 }
